@@ -1,5 +1,7 @@
 fastapi
-uvicorn
+uvicorn[standard]
 python-multipart
 pydantic
-
+python-dotenv
+aiofiles
+openai>=1.0.0   # optional: only if you use OpenAIAdapter
